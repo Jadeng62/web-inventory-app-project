@@ -9,29 +9,46 @@
 </head>
 <body>
     <h1> Ice Cream Inventory!</h1>
+    <div>
+        <input type="text" placeholder="Enter name..." class="start-input" required>
+        <input type="date" class="start-input">
+        <br>
+        <input type="email" placeholder="Enter email..." required>
+
+        <label for="search""></label>
+        <input type="search" id="search" placeholder="Search for saved...">
+    </div>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAuDKm-VnHppWQ_reos6qquZDXPLW1pOWuLQ&usqp=CAU
-    " alt="Image of mutiple ice creams">
-    <form>
-        <p>Welcome to our Ice Cream Inventory application where you can create, select, or delete the ice cream's of your choice. There will also be a link at the bottom of the page where you can see a list of popular ice cream stores
-        <span>
-            Enjoy!
-        </span>
+    " alt="Image of mutiple ice creams" class="icepic">
+    <p id="header">Welcome to our Ice Cream Inventory application where you can create, select, or delete the ice cream's of your choice. There will also be a link at the bottom of the page where you can see a list of my favorite ice cream's
+        Enjoy!
     </p>
-       <nav></nav>
-        <div>
-            <fieldset>
+    
+    <div>
+            <form>
+            
                 <legend>Pick you original favorite Ice cream!</legend>
 
-                <input type="radio" name="Vanilla" id="flavor">
-                <label for="Vanilla">Vanilla</label>
+                   <label for="Vanilla">Vanilla</label>
+                   <input type="checkbox" name="Vanilla" id="flavor">
                     <br>
-                <input type="radio" name="Strawberry" id="flavor">
-                <label for="Strawberry">Strawberry</label>
+                    <label for="Strawberry">Strawberry</label>
+                    <input type="checkbox" name="Strawberry" id="flavor">
                     <br>
-                <input type="radio" name="Chocolate" id="flavor">
-                <label for="Chocalate">Chocalate</label>
-            </fieldset>
+                    <label for="Chocalate">Chocalate</label>
+                    <input type="checkbox" name="Chocolate" id="flavor">
+            </label>
+
         </div>
     </form>
+
+    <br>
+     <p class="headings">Now that you have selected your original you get to choose what you are in the mood for right now!</p>
+
+        <br>
+        (Note that you are not required to choose an original)
+      <div>
+
+      </div>
 </body>
 </html>
